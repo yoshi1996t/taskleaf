@@ -56,3 +56,7 @@ gem 'pry-rails'
 gem 'slim-rails'
 gem 'html2slim'
 gem 'bootstrap'
+
+group :production do
+  gem 'rails_12factor'
+end
